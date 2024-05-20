@@ -1,0 +1,458 @@
+{
+	"info": {
+		"_postman_id": "4b8a3b6d-6e66-4048-8448-2fbda6c1431c",
+		"name": "Collection API UTS Pem. Web Framework 20232",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33571161"
+	},
+	"item": [
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "Add",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiQWRtaW5pc3RyYXRvciIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNjIwODAzNCwiZXhwIjoxNzE2MjE1MjM0fQ.k_Oj9v3HdYzk7hhsvXm-PzoRpSJUIkyYU4YVMV9poBI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Food\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/categories",
+							"protocol": "https",
+							"host": [
+								"utspbftryo1096",
+								"kspjayamandirihub",
+								"com"
+							],
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiQWRtaW5pc3RyYXRvciIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNjIwODAzNCwiZXhwIjoxNzE2MjE1MjM0fQ.k_Oj9v3HdYzk7hhsvXm-PzoRpSJUIkyYU4YVMV9poBI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Fashion\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/categories/1",
+							"protocol": "https",
+							"host": [
+								"utspbftryo1096",
+								"kspjayamandirihub",
+								"com"
+							],
+							"path": [
+								"api",
+								"categories",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiQWRtaW5pc3RyYXRvciIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNjIwODAzNCwiZXhwIjoxNzE2MjE1MjM0fQ.k_Oj9v3HdYzk7hhsvXm-PzoRpSJUIkyYU4YVMV9poBI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/categories",
+							"protocol": "https",
+							"host": [
+								"utspbftryo1096",
+								"kspjayamandirihub",
+								"com"
+							],
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiQWRtaW5pc3RyYXRvciIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNjIwODAzNCwiZXhwIjoxNzE2MjE1MjM0fQ.k_Oj9v3HdYzk7hhsvXm-PzoRpSJUIkyYU4YVMV9poBI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/categories/3",
+							"protocol": "https",
+							"host": [
+								"utspbftryo1096",
+								"kspjayamandirihub",
+								"com"
+							],
+							"path": [
+								"api",
+								"categories",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Add",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiQWRtaW5pc3RyYXRvciIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNjIwODAzNCwiZXhwIjoxNzE2MjE1MjM0fQ.k_Oj9v3HdYzk7hhsvXm-PzoRpSJUIkyYU4YVMV9poBI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"category_id\" : 1,\r\n    \"name\" : \"Round Hat\",\r\n    \"description\" : \"Produk Original\",\r\n    \"price\" : 100000,\r\n    \"image\" : \"img.jpg\",\r\n    \"expired_at\" : \"2027-12-12\",\r\n    \"modified_by\" : \"admin@gmail.com\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/product",
+							"protocol": "https",
+							"host": [
+								"utspbftryo1096",
+								"kspjayamandirihub",
+								"com"
+							],
+							"path": [
+								"api",
+								"product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiQWRtaW5pc3RyYXRvciIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNjAyNzk1OSwiZXhwIjoxNzE2MDM1MTU5fQ.ALbkzlESEKtR_dsyA-qrSrnV2th4Ul71Z4w2YFPl4BI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"category_id\" : 1,\r\n    \"name\" : \"Circle Hat\",\r\n    \"description\" : \"Produk Original\",\r\n    \"price\" : 10000000,\r\n    \"image\" : \"img.jpg\",\r\n    \"expired_at\" : \"2027-12-12\",\r\n    \"modified_by\" : \"admin@gmail.com\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/product/1",
+							"protocol": "https",
+							"host": [
+								"utspbftryo1096",
+								"kspjayamandirihub",
+								"com"
+							],
+							"path": [
+								"api",
+								"product",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "https://utspbftryo1096.kspjayamandirihub.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/product",
+							"protocol": "https",
+							"host": [
+								"utspbftryo1096",
+								"kspjayamandirihub",
+								"com"
+							],
+							"path": [
+								"api",
+								"product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/product/3",
+							"protocol": "https",
+							"host": [
+								"utspbftryo1096",
+								"kspjayamandirihub",
+								"com"
+							],
+							"path": [
+								"api",
+								"product",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Jawa\",\r\n    \"email\" : \"jawir@gmail.com\",\r\n    \"password\" : \"jawir\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/register",
+					"protocol": "https",
+					"host": [
+						"utspbftryo1096",
+						"kspjayamandirihub",
+						"com"
+					],
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"admin@gmail.com\",\r\n    \"password\" : \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/login",
+					"protocol": "https",
+					"host": [
+						"utspbftryo1096",
+						"kspjayamandirihub",
+						"com"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register with Oauth Google",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "clientSecret",
+							"value": "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",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "1062953036429-iupajd36n59mqrv8of90rs8dshikgasi.apps.googleusercontent.com",
+							"type": "string"
+						},
+						{
+							"key": "authUrl",
+							"value": "https://accounts.google.com/o/oauth2/auth",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.google.com/o/oauth2/token",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "UTSPBF TOKEN",
+							"type": "string"
+						},
+						{
+							"key": "scope",
+							"value": "https://www.googleapis.com/auth/userinfo.email",
+							"type": "string"
+						},
+						{
+							"key": "useBrowser",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://utspbftryo1096.kspjayamandirihub.com/api/auth/google",
+					"protocol": "https",
+					"host": [
+						"utspbftryo1096",
+						"kspjayamandirihub",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth",
+						"google"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
